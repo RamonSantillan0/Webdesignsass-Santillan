@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+    <body>
+        <nav class="navbar">
+            <h1 class="logo">WebDesign</h1>
+            <ul class="menu-links">
+                <li ><a href="./index.html">Inicio</a></li>
+                <li><a class="active" href="#">Nosotros</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./condiciones.html">Condiciones</a></li>
+                <li class="btn">Contacto<a href="./contacto.html"></a></li>
+            </ul>
+            <img src="./img/botonblanco.png" alt="" class="menu-btn">
+        </nav>
+        <header class="header">
+            <div class="header-contenedor">
+                <h2>Diseño Web</h2>
+                <div class="line"></div>
+                <h1>Te ayudamos a desarrollarte en el mundo digital</h1>
+                <a href="#" class="btn">Leer mas</a>
+            </div>
+        </header>
+
+        <section class="nosotros">
+            <h1 class="titulo">Sobre Nosotros</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, iusto qui ipsa error provident at doloremque, autem libero illo voluptatem dolorem recusandae rerum! Adipisci vitae qui, illo odit alias voluptatem, sint eius unde, dolorum saepe nihil cum nisi consequatur? In vitae sit odio adipisci, numquam est. Sapiente quos rem mollitia quasi fuga adipisci placeat blanditiis, earum autem dicta nisi iusto necessitatibus sequi, temporibus minima esse repellendus recusandae? Velit consequuntur, eum error sint consectetur culpa iusto pariatur voluptatem ea expedita debitis recusandae, blanditiis sapiente ullam similique. Asperiores blanditiis, qui labore, quisquam inventore doloribus modi odio accusantium rerum iusto hic! Odio, ex?</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IyIjYuF_HUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, iusto qui ipsa error provident at doloremque, autem libero illo voluptatem dolorem recusandae rerum! Adipisci vitae qui, illo odit alias voluptatem, sint eius unde, dolorum saepe nihil cum nisi consequatur? In vitae sit odio adipisci, numquam est. Sapiente quos rem mollitia quasi fuga adipisci placeat blanditiis, earum autem dicta nisi iusto necessitatibus sequi, temporibus minima esse repellendus recusandae? Velit consequuntur, eum error sint consectetur culpa iusto pariatur voluptatem ea expedita debitis recusandae, blanditiis sapiente ullam similique. Asperiores blanditiis, qui labore, quisquam inventore doloribus modi odio accusantium rerum iusto hic! Odio, ex?</p>
+
+        </section>
+
+
+        <footer>
+            <div class="social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-snapchat"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+            <ul class="lista">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Nosotros</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Condiciones</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+            <p class="copy">
+                WebDesign @ 2022
+            </p>
+        </footer>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.menu-links')
+    
+            menuBtn.addEventListener('click', ()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+</body>
+</html>
